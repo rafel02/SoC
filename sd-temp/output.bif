@@ -1,7 +1,0 @@
-//arch = zynq; split = false; format = BIN
-the_ROM_image:
-{
-	[bootloader]/home/hasing/workspace/lab4_1/sd-temp/FSBL.elf
-	/home/hasing/workspace/lab4_1/sd-temp/lab4_soc_wrapper.bit
-	/home/hasing/workspace/lab4_1/sd-temp/u-boot.elf
-}
