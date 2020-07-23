@@ -1,0 +1,23 @@
+16:22:19 **** Build of configuration Debug for project Filter_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/filter_drv.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/filter_drv.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Filter_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/filter_drv.d" -MT"src/filter_drv.o" -o "src/filter_drv.o" "../src/filter_drv.c"
+Finished building: ../src/filter_drv.c
+ 
+Building target: Filter_test.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Filter_test_bsp/ps7_cortexa9_0/lib -o "Filter_test.elf"  ./src/filter_drv.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Filter_test.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Filter_test.elf  |tee "Filter_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19456	   1148	  22568	  43172	   a8a4	Filter_test.elf
+Finished building: Filter_test.elf.size
+ 
+
+16:22:19 Build Finished (took 119ms)
+

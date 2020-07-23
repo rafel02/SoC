@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Mar  2 16:16:29 2018
+# Process ID: 8330
+# Current directory: /home/hasing/workspace/lab2/lab2.runs/impl_1
+# Command line: vivado -log Lab2_SoC_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Lab2_SoC_wrapper.tcl -notrace
+# Log file: /home/hasing/workspace/lab2/lab2.runs/impl_1/Lab2_SoC_wrapper.vdi
+# Journal file: /home/hasing/workspace/lab2/lab2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Lab2_SoC_wrapper.tcl -notrace

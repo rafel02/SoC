@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1522139708">
+  <File Type="REPORTS-TCL" Name="Lab3_block_wrapper_reports.tcl"/>
+  <File Type="PA-TCL" Name="Lab3_block_wrapper.tcl"/>
+  <File Type="RDS-DCP" Name="Lab3_block_wrapper.dcp"/>
+  <File Type="RDS-RDS" Name="Lab3_block_wrapper.vds"/>
+  <File Type="RDS-UTIL-PB" Name="Lab3_block_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="Lab3_block_wrapper_utilization_synth.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/Lab3_block/Lab3_block.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Lab3_block/hdl/Lab3_block_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Lab3_block_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Lab3_block_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Lab3_block_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Lab3_block_MYMULTIPLIER_1_0"/>
+</GenRun>

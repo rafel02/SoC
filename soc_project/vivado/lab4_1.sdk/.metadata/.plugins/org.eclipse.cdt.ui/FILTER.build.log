@@ -1,0 +1,20 @@
+14:16:58 **** Auto Build of configuration Debug for project FILTER ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/filtertest.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/filtertest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../FILTER_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/filtertest.d" -MT"src/filtertest.o" -o "src/filtertest.o" "../src/filtertest.c"
+Finished building: ../src/filtertest.c
+ 
+Building target: FILTER.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../FILTER_bsp/ps7_cortexa9_0/lib -o "FILTER.elf"  ./src/filtertest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../FILTER_bsp/ps7_cortexa9_0/lib/libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+makefile:39: recipe for target 'FILTER.elf' failed
+make: *** [FILTER.elf] Error 1
+
+14:16:58 Build Finished (took 139ms)
+

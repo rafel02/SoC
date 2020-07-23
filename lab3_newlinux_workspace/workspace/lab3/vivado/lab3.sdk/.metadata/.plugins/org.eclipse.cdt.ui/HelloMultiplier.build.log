@@ -1,0 +1,23 @@
+18:08:31 **** Build of configuration Debug for project HelloMultiplier ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/HelloMultiplier.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/HelloMultiplier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../HelloMultiplier_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/HelloMultiplier.d" -MT"src/HelloMultiplier.o" -o "src/HelloMultiplier.o" "../src/HelloMultiplier.c"
+Finished building: ../src/HelloMultiplier.c
+ 
+Building target: HelloMultiplier.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../HelloMultiplier_bsp/ps7_cortexa9_0/lib -o "HelloMultiplier.elf"  ./src/HelloMultiplier.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: HelloMultiplier.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size HelloMultiplier.elf  |tee "HelloMultiplier.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22280	   1148	  22568	  45996	   b3ac	HelloMultiplier.elf
+Finished building: HelloMultiplier.elf.size
+ 
+
+18:08:31 Build Finished (took 118ms)
+

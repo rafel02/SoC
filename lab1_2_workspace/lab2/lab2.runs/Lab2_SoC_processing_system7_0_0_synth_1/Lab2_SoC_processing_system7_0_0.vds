@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:07 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Fri Mar  2 16:10:43 2018
+# Process ID: 7714
+# Current directory: /home/hasing/workspace/lab2/lab2.runs/Lab2_SoC_processing_system7_0_0_synth_1
+# Command line: vivado -log Lab2_SoC_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab2_SoC_processing_system7_0_0.tcl
+# Log file: /home/hasing/workspace/lab2/lab2.runs/Lab2_SoC_processing_system7_0_0_synth_1/Lab2_SoC_processing_system7_0_0.vds
+# Journal file: /home/hasing/workspace/lab2/lab2.runs/Lab2_SoC_processing_system7_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source Lab2_SoC_processing_system7_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1318.809 ; gain = 85.000 ; free physical = 5921 ; free virtual = 13362
+INFO: [Synth 8-638] synthesizing module 'Lab2_SoC_processing_system7_0_0' [/home/hasing/workspace/lab2/lab2.srcs/sources_1/bd/Lab2_SoC/ip/Lab2_SoC_processing_system7_0_0/synth/Lab2_SoC_processing_system7_0_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'processing_system7_v5_5_processing_system7' [/home/hasing/workspace/lab2/lab2.srcs/sources_1/bd/Lab2_SoC/ip/Lab2_SoC_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:162]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/cad/x_17/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (1#1) [/cad/x_17/Vivado/2017.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'BIBUF' [/cad/x_17/Vivado/2017.3/scripts/rt/data/unisim_comp.v:268]
+INFO: [Synth 8-256] done synthesizing module 'BIBUF' (2#1) [/cad/x_17/Vivado/2017.3/scripts/rt/data/unisim_comp.v:268]
+INFO: [Synth 8-638] synthesizing module 'PS7' [/cad/x_17/Vivado/2017.3/scripts/rt/data/unisim_comp.v:40559]
+INFO: [Synth 8-256] done synthesizing module 'PS7' (3#1) [/cad/x_17/Vivado/2017.3/scripts/rt/data/unisim_comp.v:40559]
+INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_5_processing_system7' (4#1) [/home/hasing/workspace/lab2/lab2.srcs/sources_1/bd/Lab2_SoC/ip/Lab2_SoC_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:162]
+INFO: [Synth 8-256] done synthesizing module 'Lab2_SoC_processing_system7_0_0' (5#1) [/home/hasing/workspace/lab2/lab2.srcs/sources_1/bd/Lab2_SoC/ip/Lab2_SoC_processing_system7_0_0/synth/Lab2_SoC_processing_system7_0_0.v:60]
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1361.348 ; gain = 127.539 ; free physical = 5932 ; free virtual = 13373
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1361.348 ; gain = 127.539 ; free physical = 5934 ; free virtual = 13375
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1635.090 ; gain = 1.000 ; free physical = 5544 ; free virtual = 12986
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:47 . Memory (MB): peak = 1635.090 ; gain = 401.281 ; free physical = 5624 ; free virtual = 13066
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:47 . Memory (MB): peak = 1635.090 ; gain = 401.281 ; free physical = 5624 ; free virtual = 13066
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:47 . Memory (MB): peak = 1635.090 ; gain = 401.281 ; free physical = 5626 ; free virtual = 13068
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:47 . Memory (MB): peak = 1635.090 ; gain = 401.281 ; free physical = 5619 ; free virtual = 13060
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:48 . Memory (MB): peak = 1650.105 ; gain = 416.297 ; free physical = 5608 ; free virtual = 13050
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:57 . Memory (MB): peak = 1839.105 ; gain = 605.297 ; free physical = 5331 ; free virtual = 12773
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:57 . Memory (MB): peak = 1859.113 ; gain = 625.305 ; free physical = 5317 ; free virtual = 12759
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:58 . Memory (MB): peak = 1867.121 ; gain = 633.312 ; free physical = 5316 ; free virtual = 12758
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:59 . Memory (MB): peak = 1867.125 ; gain = 633.316 ; free physical = 5311 ; free virtual = 12753
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:59 . Memory (MB): peak = 1867.125 ; gain = 633.316 ; free physical = 5311 ; free virtual = 12753
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:01:00 . Memory (MB): peak = 1867.125 ; gain = 633.316 ; free physical = 5311 ; free virtual = 12753
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:01:00 . Memory (MB): peak = 1867.125 ; gain = 633.316 ; free physical = 5311 ; free virtual = 12753
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:01:00 . Memory (MB): peak = 1867.125 ; gain = 633.316 ; free physical = 5311 ; free virtual = 12753
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:01:00 . Memory (MB): peak = 1867.125 ; gain = 633.316 ; free physical = 5311 ; free virtual = 12753
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BIBUF |   130|
+|2     |BUFG  |     1|
+|3     |LUT1  |   112|
+|4     |PS7   |     1|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:01:00 . Memory (MB): peak = 1867.125 ; gain = 633.316 ; free physical = 5311 ; free virtual = 12753
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:01:00 . Memory (MB): peak = 1870.121 ; gain = 662.133 ; free physical = 5498 ; free virtual = 12940

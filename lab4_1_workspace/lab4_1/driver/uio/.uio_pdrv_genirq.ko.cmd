@@ -1,0 +1,1 @@
+cmd_/home/hasing/workspace/lab4_1/driver/uio/uio_pdrv_genirq.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/hasing/workspace/xilinx_linux/scripts/module-common.lds --build-id  -o /home/hasing/workspace/lab4_1/driver/uio/uio_pdrv_genirq.ko /home/hasing/workspace/lab4_1/driver/uio/uio_pdrv_genirq.o /home/hasing/workspace/lab4_1/driver/uio/uio_pdrv_genirq.mod.o ;  true

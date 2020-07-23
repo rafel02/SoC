@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1520000119">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="Lab2_SoC_wrapper.drc"/>
+  <File Type="BG-BGN" Name="Lab2_SoC_wrapper.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Lab2_SoC_wrapper.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Lab2_SoC_wrapper.ltx"/>
+  <File Type="BITSTR-MMI" Name="Lab2_SoC_wrapper.mmi"/>
+  <File Type="BITSTR-BMM" Name="Lab2_SoC_wrapper_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Lab2_SoC_wrapper.nky"/>
+  <File Type="BITSTR-RBT" Name="Lab2_SoC_wrapper.rbt"/>
+  <File Type="BITSTR-MSK" Name="Lab2_SoC_wrapper.msk"/>
+  <File Type="BG-BIN" Name="Lab2_SoC_wrapper.bin"/>
+  <File Type="BG-BIT" Name="Lab2_SoC_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Lab2_SoC_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Lab2_SoC_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Lab2_SoC_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Lab2_SoC_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Lab2_SoC_wrapper_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="Lab2_SoC_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Lab2_SoC_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Lab2_SoC_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Lab2_SoC_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Lab2_SoC_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Lab2_SoC_wrapper_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Lab2_SoC_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Lab2_SoC_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Lab2_SoC_wrapper_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Lab2_SoC_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Lab2_SoC_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Lab2_SoC_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Lab2_SoC_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Lab2_SoC_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Lab2_SoC_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Lab2_SoC_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Lab2_SoC_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="Lab2_SoC_wrapper_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Lab2_SoC_wrapper_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Lab2_SoC_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Lab2_SoC_wrapper_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Lab2_SoC_wrapper_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Lab2_SoC_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Lab2_SoC_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="Lab2_SoC_wrapper_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Lab2_SoC_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Lab2_SoC_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Lab2_SoC_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Lab2_SoC_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Lab2_SoC_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Lab2_SoC_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Lab2_SoC_wrapper_io_placed.rpt"/>
+  <File Type="RDI-RDI" Name="Lab2_SoC_wrapper.vdi"/>
+  <File Type="PWROPT-TIMING" Name="Lab2_SoC_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Lab2_SoC_wrapper_drc_pwropted.rpt"/>
+  <File Type="OPT-TIMING" Name="Lab2_SoC_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Lab2_SoC_wrapper.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Lab2_SoC_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Lab2_SoC_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Lab2_SoC_wrapper_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="Lab2_SoC_wrapper_timing_summary_init.rpt"/>
+  <File Type="PWROPT-DCP" Name="Lab2_SoC_wrapper_pwropt.dcp"/>
+  <File Type="REPORTS-TCL" Name="Lab2_SoC_wrapper_reports.tcl"/>
+  <File Type="PLACE-DCP" Name="Lab2_SoC_wrapper_placed.dcp"/>
+  <File Type="PA-TCL" Name="Lab2_SoC_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/Lab2_SoC/Lab2_SoC.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Lab2_SoC/hdl/Lab2_SoC_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Lab2_SoC_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Lab2_SoC_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Lab2_SoC_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Lab2_SoC_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Lab2_SoC_axi_gpio_0_0"/>
+</GenRun>

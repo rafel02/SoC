@@ -1,0 +1,36 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.3 (lin64) Build 2018833 Wed Oct  4 19:58:07 MDT 2017
+| Date         : Tue Mar 20 18:43:44 2018
+| Host         : lx20 running 64-bit SUSE Linux Enterprise Desktop 12 SP2
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Lab3_block_MYMULTIPLIER_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Lab3_block_MYMULTIPLIER_0_0 (ttu.ee:user:MYMULTIPLIER:1.0) from (Rev. 1) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'Lab3_block_MYMULTIPLIER_0_0'.
+
+
+-Upgrade has added interface 'multiplier_rdy_irq_out' (xilinx.com:signal:interrupt:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Lab3_block_MYMULTIPLIER_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'multiplier_rdy_irq_out'
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1520000119">
+  <File Type="VDS-TIMING-PB" Name="Lab2_SoC_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Lab2_SoC_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="Lab2_SoC_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="Lab2_SoC_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="Lab2_SoC_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="Lab2_SoC_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="Lab2_SoC_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="Lab2_SoC_wrapper_reports.tcl"/>
+  <File Type="PA-TCL" Name="Lab2_SoC_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/Lab2_SoC/Lab2_SoC.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Lab2_SoC/hdl/Lab2_SoC_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Lab2_SoC_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Lab2_SoC_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Lab2_SoC_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Lab2_SoC_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Lab2_SoC_axi_gpio_0_0"/>
+</GenRun>

@@ -1,0 +1,9 @@
+16:27:01 INFO  : Registering command handlers for SDK TCF services
+16:27:04 INFO  : Launching XSCT server: xsct -n -interactive /home/hasing/workspace/lab2/lab2.sdk/temp_xsdb_launch_script.tcl
+16:27:07 INFO  : XSCT server has started successfully.
+16:27:09 INFO  : Successfully done setting XSCT server connection channel  
+16:27:09 INFO  : Successfully done setting SDK workspace  
+16:27:09 INFO  : Processing command line option -hwspec /home/hasing/workspace/lab2/lab2.sdk/Lab2_SoC_wrapper.hdf.
+17:04:52 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o /home/hasing/workspace/lab2/sd-image/BOOT.bin
+17:04:52 INFO  : Creating new bif file /home/hasing/workspace/lab2/sd-temp/output.bif
+17:04:52 INFO  : Bootgen command execution is done.
